@@ -70,3 +70,26 @@ p{
     font-size:30px;
     color: white;
 }
+#main-nav{
+    height:54px;
+    box-shadow: 0px 0px 12px 1px rgb(0, 0, 0, 0.8);
+    width:100%;
+}
+.nav{
+    width:700px;
+    height:100%;
+    margin-left:260px;
+    display: flex;
+    justify-content: center;
+}
+.shoping, .biss, .info, .brand, .contents, .academy{
+    color:rgb(0, 47, 95);
+    margin: 7px;
+    font-weight: 600;
+    padding:10px;
+}
+.shoping:hover, .biss:hover, .info:hover, .brand:hover, .contents:hover, .academy:hover{
+    background-color:rgb(0, 47, 95);
+    color:white;
+    cursor: pointer;
+}
