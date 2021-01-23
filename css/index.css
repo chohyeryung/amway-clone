@@ -247,17 +247,17 @@ h4{
 .shoping-menu li{
     position:relative;
 }
-.shoping-menu-menu{
+#main-nav .shoping-menu-menu{
     z-index:100;
     width:1025px;
     position:absolute;
     top:130px;
     background-color: white;
     left:571px;
-    display:none;
+    /* display:none; */
 }
-.nav .lire:hover .nav .shoping-menu-menu{
-    display:block;
+.nav .shoping:hover #main-nav .shoping-menu-menu{
+    display:none;
 }
 .shoping-menu-menu ul{
     list-style-type: none;
