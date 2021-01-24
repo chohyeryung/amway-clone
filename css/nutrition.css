@@ -16,7 +16,7 @@
     margin-top:20px;
 }
 .n-header h6{
-    margin-top:-8px;
+    margin-top:-2px;
 }
 span img{
     width:50px;
@@ -25,20 +25,20 @@ span img{
 strong{
     font-size:40px;
     color:white;
-    margin-left:10px;
+    margin-left:15px;
 }
 .nutrilite{
     background-image:url("../img/nutrilite.png");
     background-repeat: no-repeat;
     height:15px;
-    margin-top:20px;
+    margin-top:25px;
 }
 .more-info p{
-    margin-top:15px;
+    margin-top:18px;
     color:white;
 }
 .more-info h6{
-    font-size:12px;
+    font-size:13px;
     color:grey;
 }
 .all-button{
@@ -50,13 +50,100 @@ strong{
     background-color:rgb(0, 47, 95);
 }
 .n-info{
-    margin-left:370px;
-    padding-top:50px;
+    margin-left:365px;
+    padding-top:55px;
 }
 .n-health{
     display:table;
 }
-span{
+.n-health span{
     display:table-cell;
     vertical-align: middle;
+}
+.n-main{
+    width: 1370px;
+    max-width:1370px;
+    margin:0 auto;
+}
+.pc-title{
+    text-align:center;
+}
+.category{
+    text-decoration: none;
+    border:1px solid rgb(192, 192, 192);
+    width:130px;
+    height:130px;
+    color:grey;
+    display:inline-block;
+    padding:30px 5px 0;
+    margin:0 10px 20px;
+}
+.category img{
+    width:70px;
+    margin:0 auto;
+    display:block;
+}
+.category h5{
+    text-align: center;
+    padding:0;
+    color:rgb(88, 88, 88);
+    padding-top:10px;
+}
+.pc-title h1{
+    color:rgb(0, 47, 95);
+    margin-bottom:10px;
+}
+.pc-title h5{
+    color:rgb(0, 47, 95);
+    margin:0;
+    font-weight: normal;
+}
+.pc-cate{
+    margin-top:45px;
+}
+.pc-cate a:nth-child(9){
+    display:block;
+    width:130px;
+    margin:0 auto;
+}
+.n-science{
+    background-image:url("../img/nscience.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+    padding:80px 0 60px;
+    text-align: center;
+}
+.n-science h1{
+    text-align: center;
+    color:green;
+    font-size:37px;
+}
+.n-science h5{
+    text-align: center;
+    color:grey;
+}
+.item1, .item2{
+    display:inline-block;
+}
+.item1 a{
+    background-image: url("../img/item1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+}
+.item2 a{
+    background-image: url("../img/item2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+}
+.card-box{
+    margin-top:50px;
+}
+.card-box a{
+    text-decoration: none;
 }
