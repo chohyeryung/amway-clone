@@ -114,12 +114,12 @@ hr{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:450px;
+    min-height:450px;
     padding:80px 0 60px;
     text-align: center;
+    position:relative;
 }
 .n-science h1{
-    text-align: center;
     color:green;
     font-size:37px;
 }
@@ -163,17 +163,34 @@ hr{
     bottom:10px;
     font-size:20px;
 }
-.item1 strong{
-    background-image: url("../img/nutrilite.png");
-    background-size: cover;    
+.item1 img{
+    position:absolute;
+    top:50%;
+    left:35px;
     width:110px;
-    height:50px;
-    z-index: 100;
+    height:10px;
 }
-.item2 strong{
-    background-image: url("../img/xs-logo.png");
-    background-size: cover;    
+.item2 img{
+    position:absolute;
+    top:42%;
+    left:35px;
     width:110px;
     height:50px;
-    z-index: 100;
+}
+.n-science h2, .n-line{
+    position: absolute;
+    right:0;
+}
+.n-science h2{
+    margin-right:50px;
+    margin-top:-40px;
+    color:white;
+    font-size:35px;
+    margin-bottom:0;
+}
+.n-science .n-line{
+    background-color:green;
+    width:100px;
+    height:5px;
+    margin-top:-50px;
 }
