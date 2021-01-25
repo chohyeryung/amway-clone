@@ -215,8 +215,9 @@ hr{
     background-repeat: no-repeat;
     background-size: auto 400px;
     width:1376px;
-    padding:80px 0 60px 140px;
+    padding:80px 0 0px 140px;
     position: relative;
+    height:500px;
 }
 .h11{
     margin:0;
@@ -252,7 +253,7 @@ hr{
 .owl-item1 .item-img{
     position: absolute;
     right:275px;
-    bottom:-90px;
+    bottom:80px;
 }
 .owl-item2{
     background-image:url("../img/nutriprdt_pc2.jpg");
@@ -343,4 +344,98 @@ hr{
 }
 .section [id="slide04"]:checked ~ .slidewrap .slidelist>li{
     transform:translateX(-302%);
+}
+.n-solution{
+    margin-top:50px;
+}
+.s-col{
+    width:318px;
+    display: inline-block;
+    margin:10px;
+}
+.s-col a{
+    position: relative;
+    overflow: hidden;
+    padding-top: 54.90196078431373%;
+    display: block;
+    max-width: 408px;
+    max-height: 350px;
+}
+.s-col img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+}
+.solution-info{
+    min-height:40px;
+    background-color: rgb(236, 236, 236);
+}
+.solution-info p{
+    color:rgb(0, 47, 95);
+    margin:0;
+    padding:30px 20px 35px 20px;
+}
+.n-best{
+    margin-top:50px;
+}
+.best1{
+    width:22%;
+    text-align: left;
+    border:1px solid grey;
+    display:inline-block;
+}
+.best1 img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.image{
+    width:220px;
+    height:220px;
+    position:relative;
+    margin:50px 30px 0 35px;
+}
+.best1 .view{
+    position:absolute;
+    top:43%;
+    left:80px;
+    width:180px;
+    height:65px;
+    font-size:20px;
+    color:rgb(0, 47, 95);
+    display:none;
+    border:1px solid rgb(0, 47, 95);
+}
+.image img:hover{
+    width:230px;
+    height:230px;
+    transition: all .3s;
+}
+.image img:hover .image .view{
+    display:block;
+}
+.best1 .title{
+    padding-top:50px;
+}
+.best1 .blue{
+    color:rgb(0, 47, 95);
+    font-weight: 600;
+    font-size:14px;
+    padding-left:30px;
+}
+.best1 .grey{
+    color:rgb(192, 192, 192);
+    font-weight: 600;
+    font-size:13px;
+    padding-left:30px;
+}
+.best1 h6{
+    color:rgb(192, 192, 192);
+    font-weight: 600;
+    font-size:13px;
+    padding-left:30px;
+    margin-top:50px;
 }
