@@ -298,16 +298,17 @@ hr{
 }
 .section .slidewrap{
     max-width: 1376px;
+    min-width:1200px;
     margin:0 auto;
     overflow: hidden;
 }
 .section .slidelist{
     white-space: nowrap;
     list-style-type: none;
+    margin:0 -25px 0 -25px;
 }
 .section .slidelist>li{
     display:inline-block;
-    vertical-align: middle;
     width:100%;
     transition: all .5s;
 }
@@ -328,6 +329,18 @@ hr{
     background:url("../img/left.png") center center/40% no-repeat;
 }
 .section .slidelist .right{
-    right:10px;
+    right:20px;
     background:url("../img/right.png") center center/40% no-repeat;
+}
+.section [id="slide01"]:checked ~ .slidewrap .slidelist>li{
+    transform:translateX(0%);
+}
+.section [id="slide02"]:checked ~ .slidewrap .slidelist>li{
+    transform:translateX(-102%);
+}
+.section [id="slide03"]:checked ~ .slidewrap .slidelist>li{
+    transform:translateX(-202%);
+}
+.section [id="slide04"]:checked ~ .slidewrap .slidelist>li{
+    transform:translateX(-302%);
 }
